@@ -1,0 +1,15 @@
+# requirements.txt
+# Minimal, audited dependencies — no transitive vulnerability chains
+# All packages already bundled with standard Python / Flask installation
+
+Flask==3.1.2          # Web framework (includes Werkzeug for password hashing)
+PyJWT==2.7.0          # JWT tokens (pure Python, no C extensions needed)
+
+# Built-in (no install needed):
+# sqlite3   — database
+# hashlib   — extra hashing utilities
+# secrets   — cryptographically secure random
+# datetime  — token expiry
+
+# HOW TO INSTALL:
+# pip install Flask==3.1.2 PyJWT==2.7.0
